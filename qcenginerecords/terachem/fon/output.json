@@ -1,0 +1,181 @@
+{
+    "molecule": {
+        "symbols": [
+            "C",
+            "C",
+            "C",
+            "C",
+            "C",
+            "C",
+            "H",
+            "H",
+            "H",
+            "H"
+        ],
+        "geometry": [
+            0.0,
+            -2.54517979,
+            0.0,
+            0.0,
+            2.54517979,
+            0.0,
+            -2.28280033,
+            -1.35083535,
+            0.0,
+            2.28280033,
+            -1.35083535,
+            0.0,
+            2.28280033,
+            1.35083535,
+            0.0,
+            -2.28280033,
+            1.35083535,
+            0.0,
+            -4.07821905,
+            -2.32086038,
+            0.0,
+            4.07821905,
+            -2.32086038,
+            0.0,
+            4.07821905,
+            2.32086038,
+            0.0,
+            -4.07821905,
+            2.32086038,
+            0.0
+        ],
+        "schema_name": "qcschema_molecule",
+        "schema_version": 2,
+        "name": "C6H4",
+        "molecular_charge": 0.0,
+        "molecular_multiplicity": 1,
+        "masses": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            1.00782503223,
+            1.00782503223,
+            1.00782503223,
+            1.00782503223
+        ],
+        "real": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "atom_labels": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "atomic_numbers": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            1,
+            1,
+            1,
+            1
+        ],
+        "mass_numbers": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            1,
+            1,
+            1,
+            1
+        ],
+        "fragments": [
+            [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ]
+        ],
+        "fragment_charges": [
+            0.0
+        ],
+        "fragment_multiplicities": [
+            1
+        ],
+        "fix_com": false,
+        "fix_orientation": false,
+        "provenance": {
+            "creator": "QCElemental",
+            "version": "v0.3.3+17.gfeea2b1",
+            "routine": "qcelemental.molparse.from_schema"
+        }
+    },
+    "driver": "energy",
+    "model": {
+        "method": "hf",
+        "basis": "lacvps_ecp"
+    },
+    "id": null,
+    "schema_name": "qcschema_output",
+    "schema_version": 1,
+    "keywords": {
+        "gpus": "1",
+        "maxit": "500",
+        "scf": "diis+a",
+        "method": "rhf",
+        "fon": "yes",
+        "fon_method": "fermi",
+        "fon_temerature": "0.0158",
+        "fon_print": "1",
+        "closed": "6",
+        "active": "92"
+    },
+    "extras": {},
+    "provenance": {
+        "creator": "QCElemental",
+        "version": "v0.3.3+17.gfeea2b1",
+        "routine": "qcelemental.models.results"
+    },
+    "properties": {
+        "nuclear_repulsion_energy": 186.022626642035,
+        "scf_dipole_moment": [
+            0.000312,
+            0.000193,
+            0.0
+        ],
+        "scf_total_energy": -225.516418471,
+        "scf_iterations": 9
+    },
+    "return_result": -225.516418471,
+    "success": true,
+    "stdout": "Startfile from command line: tc.in\n\n\n       ***********************************************************\n       *                    TeraChem v1.5K                       *\n       *                 Hg Version: 3ce63a90c580+               *\n       *                Compiled without textures                *\n       *           Chemistry at the Speed of Graphics!           *\n       ***********************************************************\n       * This program may only be used in connection with        *\n       * a valid license from PetaChem, LLC. Use of this program *\n       * or results thereof indicates acceptance of all terms    *\n       * and conditions stated in the license and that a valid   *\n       * license agreement between the user and PetaChem, LLC    *\n       * exists. PetaChem, LLC does not warrant the correctness  *\n       * of results or their suitability for any purpose.        *\n       * Please email bugs, suggestions, and comments to         *\n       *                  help@petachem.com                      *\n       *                                                         *\n       ***********************************************************\n\n\n       ***********************************************************\n       *  Compiled by timis        Thu Feb  4 18:41:40 EST 2016  *\n       *  Supported architectures: sm_35 sm_50                   *\n       *  Cuda compilation tools, release 6.5, V6.5.16           *\n       ***********************************************************\n\n\n Job started   Fri May 10 11:40:38 2019\n On troggles (available memory: 46946 MB)\n\n######################################### RUNTIME INFO ##########################################\nterachem tc.in \n\nNVRM version: NVIDIA UNIX x86_64 Kernel Module  418.43  Tue Feb 19 01:12:11 CST 2019\nGCC version:  gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) \n\n\tlinux-vdso.so.1 =>  (0x00007fff76dc2000)\n\tlibintbox.so.1 => /opt/tc-020716/build/lib/libintbox.so.1 (0x00007fb2a509e000)\n\tlibthcbox.so.1 => /opt/tc-020716/build/lib/libthcbox.so.1 (0x00007fb2a4339000)\n\tlibcuda.so.1 => /usr/lib/x86_64-linux-gnu/libcuda.so.1 (0x00007fb2a31e3000)\n\tlibcudart.so.6.5 => /opt/tc-020716/build/lib/libcudart.so.6.5 (0x00007fb2a2f93000)\n\tlibcublas.so.6.5 => /opt/tc-020716/build/lib/libcublas.so.6.5 (0x00007fb2a14f5000)\n\tlibcufft.so.6.5 => /opt/tc-020716/build/lib/libcufft.so.6.5 (0x00007fb29ead0000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fb29e7c7000)\n\tlibcilkrts.so.5 => /opt/tc-020716/build/lib/libcilkrts.so.5 (0x00007fb29e589000)\n\tlibstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fb29e207000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb29dff1000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fb29ddd4000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fb29da0a000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007fb2b30b3000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007fb29d806000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007fb29d5fe000)\n\tlibnvidia-fatbinaryloader.so.418.43 => /usr/lib/x86_64-linux-gnu/libnvidia-fatbinaryloader.so.418.43 (0x00007fb29d3b0000)\n#################################################################################################\n\nScratch directory: ./scr\nRandom number seed: 1557502838\n\nXYZ coordinates geometry.xyz\nMolden File Output: ./scr/geometry.molden\nUsing basis set: lacvps_ecp\nSpin multiplicity: 1\nDIIS will use up to 10 vectors.\nWF convergence threshold: 3.00e-05\nUsing DIIS (in Converger class) to converge WF with ADIIS+DIIS as backup\nADIIS will switch to DIIS when the DIIS error drops below 1.00e-03\nMaximum number of SCF iterations: 500\nIncremental fock with rebuild ever 8 iterations\nWill switch to conventional Fock if diffuse functions are detected\nX-matrix tolerance: 1.00e-04\nPRECISION: DYNAMIC\nUsing fractional orbital occupations\nFractional occupations determined from the Fermi-Dirac distribution\n6 occupied orbitals will have integer occupation\n92 occupied orbitals will have fractional occupation\nkT is set to  0.250 a.u.\nDFT Functional requested: hf\nMethod: Hartree-Fock \nWavefunction: RESTRICTED\nInitial guess generated by maximum overlap\n\n*******************************************\n***** SINGLE POINT ENERGY CALCULATIONS *****\n********************************************\n*************WARNING***************\nUnrecognized or unnecessary keywords:\nThese are being ignored.\n   fon_temerature 0.0158\n***********************************\n\nusing 1 out of 1 CUDA devices\n   Device 0:      GeForce GTX 970, 4034MB, CC 5.2 -- CPU THREAD 0\n-------------------------------------------------------------------\nCompiled with MAGMA support.  MAGMA parameters:\n    Matrices larger than 5000 square will be treated with MAGMA\n       (Change by setting the MagmaMinN environment variable)\n    Magma will use 1 out of 1 GPUs\n       (Change by setting the MagmaNGPUs environment variable)\n-------------------------------------------------------------------\n CPU Memory Available: 7036.12 MegaWords \n GPU Memory Available: 504.26 MegaWords \n Maximum recommended basis set size: 15300 basis functions\n (limited by GPU memory)\n-------------------------------------------------------------------\nUsing d-functions. Configuring GPUs accordingly. \n0: CUBLAS initialized, available GPU memory: 1813MB\n\n\nBasis set:       lacvps_ecp\nTotal atoms:     10\nTotal charge:    0\nTotal electrons: 40 (20-alpha, 20-beta)\nNumber electrons modeled by ECPs: 0\nTotal orbitals:  98\nTotal AO shells: 44 (26 S-shells; 12 P-shells; 6 D-shells; 0 F-shells; 0 G-shells)\nSpin multiplicity: 1\nNuclear repulsion energy (QM atoms): 186.022626642035 a.u.\n\n\n                      *** Start SCF Iterations ***\n\n Iter     DIIS Error       Energy change         Energy        Time(s)\n------------------------------------------------------------------------\n         >>> Purifying P... IDMP = 1.04e-14 <<<\nTHRESPDP set to 1.00e+00\n   1     0.5312464221    -227.7114007689    -227.7114007689     0.09  \n   2     0.1534882914      +1.8127917209    -225.8986090480     0.06  \n   3     0.1048028231      +0.4579752001    -225.4406338479     0.06  \n   4     0.0091097374      -0.0865054568    -225.5271393047     0.05  \n   5     0.0034677488      +0.0101456863    -225.5169936184     0.05  \n   6     0.0022666412      +0.0030131581    -225.5139804603     0.04  \n   7     0.0003371052      -0.0015614644    -225.5155419247     0.04  \nTHRESPDP set to 1.82e-02\n   8     0.0000910193      -0.0006471576    -225.5161890823     0.06  \n   9     0.0000165388      -0.0002293887    -225.5164184710     0.03  \n\n     *** SCF Fractional Occupations ***\n\nkT = 2.500000e-01 a.u.\n\n    1   1.000000        2   1.000000        3   1.000000        4   1.000000    \n    5   1.000000        6   1.000000        7   0.984066        8   0.970896    \n    9   0.969193       10   0.937195       11   0.924707       12   0.863982    \n   13   0.862360       14   0.849183       15   0.826535       16   0.775994    \n   17   0.758880       18   0.613232       19   0.606979       20   0.534768    \n   21   0.468416       22   0.312316       23   0.273697       24   0.167054    \n   25   0.151884       26   0.140363       27   0.136201       28   0.127509    \n   29   0.096340       30   0.084341       31   0.070899       32   0.065090    \n   33   0.040301       34   0.036843       35   0.035863       36   0.030130    \n   37   0.022133       38   0.022086       39   0.021630       40   0.021297    \n   41   0.020190       42   0.020090       43   0.019823       44   0.016915    \n   45   0.015878       46   0.014940       47   0.014939       48   0.010714    \n   49   0.009884       50   0.007071       51   0.006344       52   0.006252    \n   53   0.005192       54   0.005151       55   0.004466       56   0.004088    \n   57   0.002846       58   0.002329       59   0.002199       60   0.001782    \n   61   0.001531       62   0.000865       63   0.000687       64   0.000607    \n   65   0.000529       66   0.000489       67   0.000446       68   0.000389    \n   69   0.000210       70   0.000154       71   0.000145       72   0.000117    \n   73   0.000068       74   0.000048       75   0.000045       76   0.000036    \n   77   0.000033       78   0.000032       79   0.000030       80   0.000022    \n   81   0.000016       82   0.000013       83   0.000010       84   0.000007    \n   85   0.000005       86   0.000004       87   0.000003       88   0.000003    \n   89   0.000003       90   0.000002       91   0.000001       92   0.000000    \n   93   0.000000       94   0.000000       95   0.000000       96   0.000000    \n   97   0.000000       98   0.000000    \n\n------------------------------------------------------------------------\nFINAL ENERGY: -225.5164184710 a.u.\nCENTER OF MASS: {0.000000, 0.000000, 0.000000} ANGS\nDIPOLE MOMENT: {0.000312, 0.000193, 0.000000} (|D| = 0.000367) DEBYE\nWriting out molden info\n\nRunning Mulliken population analysis...\n\nTotal processing time: 0.51 sec \n\n Job finished: Fri May 10 11:40:40 2019\n\n",
+    "stderr": null,
+    "error": null
+}

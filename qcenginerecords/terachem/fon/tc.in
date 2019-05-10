@@ -1,0 +1,16 @@
+coordinates geometry.xyz
+charge      0
+spinmult    1
+run         energy
+method      pbe
+basis       lacvps_ecp
+maxit       1000
+gpus        1
+scf            diis+a
+
+fon          yes
+fon_method   fermi
+fon_temperature 0.0158
+fon_print 1
+closed 6
+active 92
